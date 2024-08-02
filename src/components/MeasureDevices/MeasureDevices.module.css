@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.info .info__title {
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #5881bb;
+  font-weight: 700;
+}
+@media (max-width: 650px) {
+  .info .info__title {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    color: #5881bb;
+    font-weight: 700;
+  }
+}
+
+.info .info__list {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  color: #001390;
+  font-weight: 500;
+}/*# sourceMappingURL=MeasureDevices.module.css.map */

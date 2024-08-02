@@ -1,0 +1,23 @@
+@import '../../template';
+@import '../../variables';
+
+.work__box {
+  display: flex;
+  gap: 25px;
+  margin: 10px 0;
+  padding: 0 5px;
+  border: 1px solid $colorBorder;
+  border-radius: 5px;
+  &:nth-child(odd) {
+    background-color: $colorBackgroundItemOdd;
+  }
+  .work__checkbox {
+    margin-right: 8px;
+  }
+  .work__item {
+    @extend %text;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

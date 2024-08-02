@@ -1,0 +1,19 @@
+@import '../../template';
+@import '../../variables';
+
+.info {
+  .info__title {
+    @extend %title;
+  }
+  .info__subtitle {
+    @extend %subtitle;
+  }
+  .info__list {
+    @extend %text;
+  }
+  .info__text {
+    margin: 0;
+    list-style-type: '- ';
+    @extend %text;
+  }
+}

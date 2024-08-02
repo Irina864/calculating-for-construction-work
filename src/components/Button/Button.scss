@@ -1,0 +1,42 @@
+@import '../../template';
+@import '../../variables';
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  @include font($font1, 1rem, $colorTextLight, 700);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  &:hover {
+    cursor: pointer;
+    color: $colorTextDark;
+  }
+  &:active {
+    color: $colorTextDark;
+    background-color: $colorBtnActive;
+    border: 1.5px solid $colorTextDark;
+  }
+}
+
+.submitform {
+  margin: 10px 40px;
+  background-color: $colorBtnSubmit;
+  &:hover {
+    background-color: $colorBtnSubmitHover;
+  }
+}
+
+.procedures__btn,
+.procedures__select {
+  @include font($font1, 1.2rem, $colorTextDark, 600);
+  background-color: $colorBtnProcedure;
+  &:hover {
+    background-color: $colorBtnProcedureHover;
+  }
+}
+
+.active {
+  color: $colorTextDark;
+  background-color: $colorBtnActive;
+  border: 1.5px solid $colorTextDark;
+}

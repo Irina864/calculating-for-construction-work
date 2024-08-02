@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 5px;
+  max-width: 1920px;
+}
+.App .header {
+  padding: 5px 20% 5px 10px;
+}
+@media (max-width: 650px) {
+  .App .header {
+    padding: 5px 10px;
+  }
+}
+.App .header .header__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #001390;
+  font-weight: 800;
+}
+@media (max-width: 650px) {
+  .App .header .header__title {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    color: #001390;
+    font-weight: 800;
+  }
+}
+.App .main .condition {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5px;
+}
+@media (max-width: 650px) {
+  .App .main .condition {
+    flex-direction: column;
+  }
+}
+@media print {
+  .App body * {
+    visibility: hidden;
+  }
+  .App #printarea,
+  .App #printarea * {
+    visibility: visible;
+  }
+  .App #printarea {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .App #noprint,
+  .App #noprint * {
+    visibility: hidden;
+  }
+  .App #noprint {
+    display: none;
+  }
+}/*# sourceMappingURL=App.css.map */

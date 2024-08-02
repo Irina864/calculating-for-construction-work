@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.procedures {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.procedures .procedures__title {
+  margin: 0;
+  margin-top: 25px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #001390;
+  font-weight: 800;
+}
+.procedures .procedures__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}/*# sourceMappingURL=SelectButtons.module.css.map */

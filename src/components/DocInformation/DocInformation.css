@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.infodoc .infodoc__title {
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #5881bb;
+  font-weight: 700;
+}
+@media (max-width: 650px) {
+  .infodoc .infodoc__title {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    color: #5881bb;
+    font-weight: 700;
+  }
+}
+
+.infodoc .infodoc__subtitle {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  color: #5881bb;
+  font-weight: 700;
+}
+
+.infodoc .infodoc__text {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  color: #001390;
+  font-weight: 500;
+}
+
+.infodoc .infodoc__text {
+  margin: 0;
+}/*# sourceMappingURL=DocInformation.css.map */

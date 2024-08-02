@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.cost .cost__title {
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #5881bb;
+  font-weight: 700;
+}
+@media (max-width: 650px) {
+  .cost .cost__title {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    color: #5881bb;
+    font-weight: 700;
+  }
+}
+
+.cost .cost__subtitle {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  color: #5881bb;
+  font-weight: 700;
+}
+
+.cost .cost__warning {
+  margin: 10px 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  color: #cb0000;
+  font-weight: 700;
+}
+@media (max-width: 650px) {
+  .cost .cost__warning {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.3rem;
+    color: #cb0000;
+    font-weight: 700;
+  }
+}
+.cost .final {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  color: #5881bb;
+  font-weight: 800;
+}
+.cost .cost__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: #cb0000;
+  font-weight: 800;
+}
+@media (max-width: 650px) {
+  .cost .cost__box {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.cost .cost__box:nth-child(even) {
+  background-color: rgb(241, 247, 255);
+}
+.cost .cost__box:nth-child(odd) {
+  background-color: #e2f1ff;
+}
+.cost .cost__box .cost__name {
+  padding: 0 10px;
+  width: 50%;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  color: #001390;
+  font-weight: 500;
+}
+@media (max-width: 650px) {
+  .cost .cost__box .cost__name {
+    width: 100%;
+  }
+}
+.cost .cost__box .cost__value {
+  padding: 0 10px;
+  width: 50%;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  color: #001390;
+  font-weight: 800;
+}
+@media (max-width: 650px) {
+  .cost .cost__box .cost__value {
+    width: 100%;
+  }
+}
+.cost .cost__box .final__name {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.4rem;
+  color: #001390;
+  font-weight: 800;
+}
+.cost .cost__box .final__value {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  color: #001390;
+  font-weight: 800;
+}/*# sourceMappingURL=Cost.css.map */

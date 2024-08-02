@@ -1,0 +1,11 @@
+@import '../../template';
+@import '../../variables';
+
+.info {
+  .info__title {
+    @extend %title;
+  }
+  .info__list {
+    @extend %text;
+  }
+}

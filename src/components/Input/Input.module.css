@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.work__box .work__item {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  color: #001390;
+  font-weight: 500;
+}
+
+.work__box {
+  display: flex;
+  gap: 25px;
+  margin: 10px 0;
+  padding: 0 5px;
+  border: 1px solid #3d7ed9;
+  border-radius: 5px;
+}
+.work__box:nth-child(odd) {
+  background-color: #e2f1ff;
+}
+.work__box .work__checkbox {
+  margin-right: 8px;
+}
+.work__box .work__item:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=Input.module.css.map */

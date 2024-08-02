@@ -1,0 +1,59 @@
+@import '../../template';
+@import '../../variables';
+
+.cost {
+  .cost__title {
+    @extend %title;
+  }
+  .cost__warning {
+    margin: 10px 0;
+    @include font($font1, 2rem, $colorTextWarning, 700);
+    @include _mobile {
+      @include font($font1, 1.3rem, $colorTextWarning, 700);
+    }
+  }
+  .cost__subtitle {
+    @extend %subtitle;
+  }
+  .final {
+    @include font($font1, 1.8rem, $colorTextMedium, 800);
+  }
+  .cost__box {
+    display: flex;
+    @include flex(row, flex-start, center);
+    padding: 10px 5px;
+    @include font($font1, 1.5rem, $colorTextWarning, 800);
+    @include _mobile {
+      @include flex(column, flex-start, flex-start);
+    }
+    &:nth-child(even) {
+      background-color: $colorBackgroundItem;
+    }
+    &:nth-child(odd) {
+      background-color: $colorBackgroundItemOdd;
+    }
+    .cost__name {
+      padding: 0 10px;
+      width: 50%;
+      @include font($font1, 1.2rem, $colorTextDark, 500);
+      @include _mobile {
+        width: 100%;
+      }
+    }
+    .cost__value {
+      padding: 0 10px;
+      width: 50%;
+      @include font($font1, 1.2rem, $colorTextDark, 800);
+      @include _mobile {
+        width: 100%;
+      }
+    }
+
+    .final__name {
+      @include font($font1, 1.4rem, $colorTextDark, 800);
+    }
+    .final__value {
+      @include font($font1, 1.6rem, $colorTextDark, 800);
+    }
+  }
+}

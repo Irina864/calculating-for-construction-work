@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import './variables';
+
+%title {
+  margin: 0;
+  margin-top: 30px;
+  @include font($font1, 2rem, $colorTextMedium, 700);
+  @include _mobile {
+    @include font($font1, 1.5rem, $colorTextMedium, 700);
+  }
+}
+
+%subtitle {
+  margin: 0;
+  margin-top: 10px;
+  @include font($font1, 1.3rem, $colorTextMedium, 700);
+}
+
+%text {
+  @include font($font1, 1.1rem, $colorTextDark, 500);
+}

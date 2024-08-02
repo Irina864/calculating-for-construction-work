@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.btn {
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #001390;
+}
+.btn:active {
+  color: #001390;
+  background-color: #ffffff;
+  border: 1.5px solid #001390;
+}
+
+.submitform {
+  margin: 10px 40px;
+  background-color: #1a69d0;
+}
+.submitform:hover {
+  background-color: #d1e5ff;
+}
+
+.procedures__btn,
+.procedures__select {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  color: #001390;
+  font-weight: 600;
+  background-color: transparent;
+}
+.procedures__btn:hover,
+.procedures__select:hover {
+  background-color: rgb(226, 231, 255);
+}
+
+.active {
+  color: #001390;
+  background-color: #ffffff;
+  border: 1.5px solid #001390;
+}/*# sourceMappingURL=Button.css.map */

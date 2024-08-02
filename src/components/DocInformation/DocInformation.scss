@@ -1,0 +1,15 @@
+@import '../../template';
+@import '../../variables';
+
+.infodoc {
+  .infodoc__title {
+    @extend %title;
+  }
+  .infodoc__subtitle {
+    @extend %subtitle;
+  }
+  .infodoc__text {
+    margin: 0;
+    @extend %text;
+  }
+}

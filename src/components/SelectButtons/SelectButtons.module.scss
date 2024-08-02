@@ -1,0 +1,18 @@
+@import '../../template';
+@import '../../variables';
+
+.procedures {
+  display: flex;
+  @include flex(column, flex-start, flex-start);
+  gap: 8px;
+  .procedures__title {
+    margin: 0;
+    margin-top: 25px;
+    @include font($font1, 1.5rem, $colorTextDark, 800);
+  }
+  .procedures__buttons {
+    display: flex;
+    @include flex(column, flex-start, flex-start);
+    gap: 8px;
+  }
+}

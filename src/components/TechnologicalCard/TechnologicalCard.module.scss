@@ -1,0 +1,15 @@
+@import '../../template';
+@import '../../variables';
+
+.info {
+  .info__title {
+    @extend %title;
+  }
+  .info__list {
+    @extend %text;
+  }
+  .info__link {
+    margin: 0 1%;
+    @extend %text;
+  }
+}

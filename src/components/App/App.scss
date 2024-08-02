@@ -1,0 +1,53 @@
+@import '../../template';
+@import '../../variables';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 5px;
+  max-width: 1920px;
+  .header {
+    padding: 5px 20% 5px 10px;
+    @include _mobile {
+      padding: 5px 10px;
+    }
+    .header__title {
+      @include font($font1, 2rem, $colorTextDark, 800);
+      @include _mobile {
+        @include font($font1, 1.5rem, $colorTextDark, 800);
+      }
+    }
+  }
+  .main {
+    .condition {
+      display: flex;
+      @include flex(row, space-between, flex-start);
+      gap: 5px;
+      @include _mobile {
+        flex-direction: column;
+      }
+    }
+  }
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+    #printarea,
+    #printarea * {
+      visibility: visible;
+    }
+    #printarea {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    #noprint,
+    #noprint * {
+      visibility: hidden;
+    }
+    #noprint {
+      display: none;
+    }
+  }
+}

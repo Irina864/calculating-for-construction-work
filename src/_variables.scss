@@ -1,0 +1,40 @@
+$font1: 'Nunito', sans-serif;
+$colorTextLight: #ffffff;
+$colorTextMedium: #5881bb;
+$colorTextDark: #001390;
+$colorTextWarning: #cb0000;
+$colorBorder: #3d7ed9;
+$colorBtnSubmit: #1a69d0;
+$colorBtnSubmitHover: #d1e5ff;
+$colorBtnProcedure: transparent;
+$colorBtnProcedureHover: rgb(226, 231, 255);
+$colorBtnActive: #ffffff;
+$colorBackgroundItem: rgb(241, 247, 255);
+$colorBackgroundItemOdd: #e2f1ff;
+
+@mixin font($ff, $fs, $fc, $fw) {
+  font-family: $ff;
+  font-size: $fs;
+  color: $fc;
+  font-weight: $fw;
+}
+@mixin flex($fd, $jc, $ai) {
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+}
+@mixin _laptop {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin _tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin _mobile {
+  @media (max-width: 650px) {
+    @content;
+  }
+}
