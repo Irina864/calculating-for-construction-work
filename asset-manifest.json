@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/calculating-for-construction-work/static/css/main.c0597e57.css",
+    "main.js": "/calculating-for-construction-work/static/js/main.30114a06.js",
+    "static/js/453.92d5e345.chunk.js": "/calculating-for-construction-work/static/js/453.92d5e345.chunk.js",
+    "index.html": "/calculating-for-construction-work/index.html",
+    "main.c0597e57.css.map": "/calculating-for-construction-work/static/css/main.c0597e57.css.map",
+    "main.30114a06.js.map": "/calculating-for-construction-work/static/js/main.30114a06.js.map",
+    "453.92d5e345.chunk.js.map": "/calculating-for-construction-work/static/js/453.92d5e345.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0597e57.css",
+    "static/js/main.30114a06.js"
+  ]
+}
