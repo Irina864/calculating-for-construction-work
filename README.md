@@ -1,4 +1,4 @@
-#Costing and information selection
+# Costing and information selection
 
 This app was developed for a consulting company that provides assistance services in obtaining construction permits.
 Here you can select the types of construction works you are interested in and get information on what documents are required for their fulfilment, as well as what measuring instruments, certified specialists, workers and documents you will need to provide and estimate the approximate cost of all procedures for obtaining these documents.
@@ -13,7 +13,7 @@ The application also takes into account the possibility of adding or deleting an
 
 ✅ Website is hosted on GitHub Pages https://irina864.github.io/calculating-for-construction-work/
 
-#Калькуляция затрат и подбор информации
+# Калькуляция затрат и подбор информации
 
 Это приложение было разработано для консалтинговой компании, которая предоставляет услуги содействия в получении разрешительных документов в строительстве.
 Здесь можно выбрать интересующие вас виды строительных работ и получить информацию о том, какие документы необходимы для их выполнения , а так же какие средства измерений, аттестованные специалисты, рабочие и документы понадобится предоставить и оценить примерную сумму затрат на все процедуры для получения данных документов.
