@@ -12,6 +12,7 @@ The application also takes into account the possibility of adding or deleting an
 ✅ MobX 
 
 ✅ Website is hosted on GitHub Pages https://irina864.github.io/calculating-for-construction-work/
+and Netlify https://unrivaled-heliotrope-db0798.netlify.app/
 
 # Калькуляция затрат и подбор информации
 
